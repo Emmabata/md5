@@ -136,7 +136,10 @@ font-size: 1.3em;
 }
 /* extra small devices only*/
  @media (max-width:767px) {
-    /*Header*/
+    .jumbotron {
+    background: url('./images/jumbotron_768.jpg') no-repeat;
+    height: 300px;}
+    /*Header*/px
 .navbar-brand{
         padding-top: 10px;
         height: 80px;
